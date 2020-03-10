@@ -4,4 +4,40 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="blazor\Data\WeatherForecast.cs" />
+    <Compile Remove="blazor\Data\WeatherForecastService.cs" />
+    <Compile Remove="blazor\Startup.cs" />
+    <Compile Remove="blazor\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="blazor\App.razor" />
+    <Content Remove="blazor\_Imports.razor" />
+    <Content Remove="blazor\appsettings.Development.json" />
+    <Content Remove="blazor\appsettings.json" />
+    <Content Remove="blazor\appsettings.Development.json" />
+    <Content Remove="blazor\Pages\_Host.cshtml" />
+    <Content Remove="blazor\Shared\MainLayout.razor" />
+    <Content Remove="blazor\Shared\NavMenu.razor" />
+    <Content Remove="blazor\Pages\Counter.razor" />
+    <Content Remove="blazor\Pages\Index.razor" />
+    <Content Remove="blazor\Pages\Error.razor" />
+    <Content Remove="blazor\Pages\FetchData.razor" />
+    <Content Remove="blazor\Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="blazor\wwwroot\favicon.ico" />
+    <None Remove="blazor\wwwroot\css\site.css" />
+    <None Remove="blazor\wwwroot\css\bootstrap\bootstrap.min.css" />
+    <None Remove="blazor\wwwroot\css\bootstrap\bootstrap.min.css.map" />
+    <None Remove="blazor\wwwroot\css\open-iconic\FONT-LICENSE" />
+    <None Remove="blazor\wwwroot\css\open-iconic\ICON-LICENSE" />
+    <None Remove="blazor\wwwroot\css\open-iconic\README.md" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\fonts\open-iconic.svg" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\fonts\open-iconic.woff" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\fonts\open-iconic.eot" />
+    <None Remove="blazor\wwwroot\css\open-iconic\font\fonts\open-iconic.otf" />
+  </ItemGroup>
 </Project>
